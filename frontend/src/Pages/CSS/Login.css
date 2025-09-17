@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 87vh;
+  background-color: rgb(180, 182, 183);
+}
+
+.error {
+  color: red;
+}
+
+.box {
+  width: 380px;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box form h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.box form h3 {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.inputBox {
+  position: relative;
+  margin-top: 20px;
+}
+
+
+.inputBox input {
+  width: 90%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #8f8f8f;
+  color: black;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputBox input:focus {
+  border-bottom-color: black;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  cursor: pointer;
+  color: black;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.forgot-password {
+  color: black;
+}
+
+.forgot-password:hover {
+  color: #5e9bdc;
+}
+
+.btn {
+  padding: 10px;
+  background: blue;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:active {
+  background-color: #45f3f5;
+  transform: scale(1.01);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14.5px;
+  color: black;
+}
+
+.register-link h3 {
+  margin-top: 5px;
+  color: teal;
+}
+
+.register-link h3:hover {
+  color: #5e9bdc;
+}
